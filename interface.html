@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>4D Rotation</title>
+        <meta charset="utf-8">
+		<meta name="author" content="Kevin White">
+        <style>
+            body {
+                background-color: rgb(200,200,200);
+                text-align: center;
+            }
+            #title {
+                font-size: 3.5em;
+            }
+            #form {
+                font-size: 1.5em;
+            }
+            #submit {
+                height:2.5em;
+                width:3em;
+                font-size: 1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">4D Extrusion and Rotation</h1>
+        <div id="interface">
+            <form id="form" action="display.html" method="GET">
+                Shape:
+                <select id="shape" name="shape">
+                    <option value="cube">Cube</option>
+                    <option value="sphere">Sphere</option>
+                    <option value="cylinder">Cylinder</option>
+                    <option value="ring">Ring</option>
+                    <option value="tetra">Tetrahedron</option>
+                    <option value="octa">Octahedron</option>
+                </select><br><br>
+                <input type="checkbox" name="useGUI">Use GUI to rotate<br><br>
+                <input type="checkbox" name="useEdges">Only display edges<br><br>
+                <input type="submit" value="GO" id="submit">
+            </form>
+        </div>
+    </body>
+</html>
