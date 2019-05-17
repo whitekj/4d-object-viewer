@@ -5,4 +5,4 @@ Extrudes a given 3D object into the fourth dimension, and allows the user to vie
 
 ## How to run
 
-Download and open interface.html
+Download and open _interface.html_
